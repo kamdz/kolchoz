@@ -23,7 +23,7 @@ Track your earnings with a simple command:
 
 ```bash
 kolchoz PL -m 15000
-# or without installation
+# or without preinstallation
 npx kolchoz PL -m 15000
 ```
 
@@ -66,7 +66,7 @@ This calculates your earnings per second with a daily rate of 200 PLN.
 #### Compact Output
 
 ```bash
-kolchoz PL -h 20 -s
+kolchoz PL -h 20 --compact
 ```
 
 Output:
