@@ -3860,9 +3860,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-holidays@npm:^3.23.12":
-  version: 3.23.12
-  resolution: "date-holidays@npm:3.23.12"
+"date-holidays@npm:^3.23.13":
+  version: 3.23.13
+  resolution: "date-holidays@npm:3.23.13"
   dependencies:
     date-holidays-parser: "npm:^3.4.4"
     js-yaml: "npm:^4.1.0"
@@ -3870,7 +3870,7 @@ __metadata:
     prepin: "npm:^1.0.3"
   bin:
     holidays2json: scripts/holidays2json.cjs
-  checksum: 10c0/367bfc6e878d42a079090ef20d7783b84a044a4cd7731795e48ddd865731244b1ce90c1cc9642bbe32bded34e678b8a8dc8cd09d2f10cab6e088c99e04a4e4a5
+  checksum: 10c0/734f27ca3767d823d2944c6e5f1c9be41fe19f3442bfb06d94db8e07779da5d8bb572bcc6eb906076fd1e24fb1676d108592eb71c0f7df8fb4cedef80a513546
   languageName: node
   linkType: hard
 
@@ -4037,14 +4037,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dutyhours@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "dutyhours@npm:1.0.1"
+"dutyhours@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "dutyhours@npm:1.0.3"
   dependencies:
-    date-holidays: "npm:^3.23.12"
+    commander: "npm:^12.1.0"
+    date-holidays: "npm:^3.23.13"
   bin:
     dutyhours: dist/cli.js
-  checksum: 10c0/efcd07c4c8fb38a33125743635c0f34cd5b52ba3af8eb563bec09af2f4427dc527a7264931338b446474a2d61e16607519cb332915cd4b2fe4878b5de9c452c2
+  checksum: 10c0/a1967bd34ec22b77550112fab3049f543d88ccf8df441c1af1001ffa98f4142798fe0fcedf94d10da8e05fb53c360a45f1ece785b76776fb5523e1930681bd88
   languageName: node
   linkType: hard
 
@@ -6919,7 +6920,7 @@ __metadata:
     commitizen: "npm:^4.3.1"
     countries-list: "npm:^3.1.1"
     cz-conventional-changelog: "npm:^3.3.0"
-    dutyhours: "npm:^1.0.1"
+    dutyhours: "npm:^1.0.3"
     eslint: "npm:^9.14.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-import: "npm:^2.31.0"
