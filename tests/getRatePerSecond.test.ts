@@ -48,6 +48,7 @@ describe('getRatePerSecond', () => {
   });
 
   it('should throw an error for invalid rate type', () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const rate = { invalidRate: 123 } as any;
 
     expect(() => getRatePerSecond({ ...rate, country: 'US' })).toThrow('Invalid rate type provided.');
