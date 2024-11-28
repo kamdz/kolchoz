@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kamdz/kolchoz/compare/v1.0.2...v1.0.3) (2024-11-28)
+
+
+### Bug Fixes
+
+* lint test error ([22a036e](https://github.com/kamdz/kolchoz/commit/22a036e176d5975b05f62f633fca7156e13feaed))
+
 ## [1.0.2](https://github.com/kamdz/kolchoz/compare/v1.0.1...v1.0.2) (2024-11-27)
 
 
