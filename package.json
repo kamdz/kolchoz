@@ -107,7 +107,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
-    "@eslint/compat": "^1.2.3",
+    "@eslint/compat": "^1.2.4",
     "@eslint/js": "^9.16.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@semantic-release/changelog": "^6.0.3",
@@ -133,7 +133,7 @@
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.17.0"
+    "typescript-eslint": "^8.18.0"
   },
   "packageManager": "yarn@4.5.1",
   "dependencies": {
