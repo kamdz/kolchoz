@@ -3509,6 +3509,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "commander@npm:13.0.0"
+  checksum: 10c0/8ba1e2b83bfdbcefd967aa505f5f5dc58202aa5f8e10437f61f6980dd8a69f868dba439a261f9fb72fc543c5f6fe58140e37b001a4c70b92ae22527abe94dfe1
+  languageName: node
+  linkType: hard
+
 "commander@npm:^4.0.0":
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
@@ -6921,7 +6928,7 @@ __metadata:
     "@types/fs-extra": "npm:^11.0.4"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.1"
-    commander: "npm:^12.1.0"
+    commander: "npm:^13.0.0"
     commitizen: "npm:^4.3.1"
     countries-list: "npm:^3.1.1"
     cz-conventional-changelog: "npm:^3.3.0"
