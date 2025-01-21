@@ -137,7 +137,7 @@
   },
   "packageManager": "yarn@4.5.1",
   "dependencies": {
-    "commander": "^12.1.0",
+    "commander": "^13.1.0",
     "countries-list": "^3.1.1",
     "dutyhours": "^1.0.3"
   }
