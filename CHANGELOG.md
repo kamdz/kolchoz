@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kamdz/kolchoz/compare/v1.0.3...v1.0.4) (2025-01-27)
+
+
+### Bug Fixes
+
+* **deps:** bump commander in the dependencies group across 1 directory ([22d6ce6](https://github.com/kamdz/kolchoz/commit/22d6ce6e2c7ea0ff2e527704052eb75ca840b0b8))
+
 ## [1.0.3](https://github.com/kamdz/kolchoz/compare/v1.0.2...v1.0.3) (2024-11-28)
 
 
