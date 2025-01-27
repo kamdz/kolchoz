@@ -3521,13 +3521,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^12.1.0":
-  version: 12.1.0
-  resolution: "commander@npm:12.1.0"
-  checksum: 10c0/6e1996680c083b3b897bfc1cfe1c58dfbcd9842fd43e1aaf8a795fbc237f65efcc860a3ef457b318e73f29a4f4a28f6403c3d653d021d960e4632dd45bde54a9
-  languageName: node
-  linkType: hard
-
 "commander@npm:^13.1.0":
   version: 13.1.0
   resolution: "commander@npm:13.1.0"
@@ -3892,40 +3885,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-easter@npm:^1.0.2":
+"date-easter@npm:^1.0.3":
   version: 1.0.3
   resolution: "date-easter@npm:1.0.3"
   checksum: 10c0/08734502a3264fb8c5073c22ab13e6624e7981293c72b5e3c37ea88bceae75db9ec8cd25443ea3729b096f5e062469d934f9ebf072a30229b313d1ba28e5d204
   languageName: node
   linkType: hard
 
-"date-holidays-parser@npm:^3.4.4":
-  version: 3.4.4
-  resolution: "date-holidays-parser@npm:3.4.4"
+"date-holidays-parser@npm:^3.4.6":
+  version: 3.4.6
+  resolution: "date-holidays-parser@npm:3.4.6"
   dependencies:
     astronomia: "npm:^4.1.1"
     caldate: "npm:^2.0.5"
     date-bengali-revised: "npm:^2.0.2"
     date-chinese: "npm:^2.1.4"
-    date-easter: "npm:^1.0.2"
+    date-easter: "npm:^1.0.3"
     deepmerge: "npm:^4.3.1"
-    jalaali-js: "npm:^1.2.6"
-    moment-timezone: "npm:^0.5.43"
-  checksum: 10c0/0e39cfd00d7873e677f01834bb27802f444ef7c2b4ea8335dd90f2f95b9f8433dd3f26a8b32590052a7222ee56d104769f60dd4f940cb9e6669c0707beb88698
+    jalaali-js: "npm:^1.2.7"
+    moment-timezone: "npm:^0.5.46"
+  checksum: 10c0/b85052416d7c707306d9ce4761fbcc0776a668dc1a1a08380d6567d44d0ac03bf2c54921b8891f76aa97decdb7fa150a7ea977cda7573a52a0722b95aef37e70
   languageName: node
   linkType: hard
 
-"date-holidays@npm:^3.23.13":
-  version: 3.23.13
-  resolution: "date-holidays@npm:3.23.13"
+"date-holidays@npm:^3.23.18":
+  version: 3.23.18
+  resolution: "date-holidays@npm:3.23.18"
   dependencies:
-    date-holidays-parser: "npm:^3.4.4"
+    date-holidays-parser: "npm:^3.4.6"
     js-yaml: "npm:^4.1.0"
     lodash: "npm:^4.17.21"
     prepin: "npm:^1.0.3"
   bin:
     holidays2json: scripts/holidays2json.cjs
-  checksum: 10c0/734f27ca3767d823d2944c6e5f1c9be41fe19f3442bfb06d94db8e07779da5d8bb572bcc6eb906076fd1e24fb1676d108592eb71c0f7df8fb4cedef80a513546
+  checksum: 10c0/1d7195c62f76c2e406a193455bcf85d2205a0a78119d21b16498f58d483d0bfb3be68cdf9b727ebaf5dacb7978006771fe97a17d3ad267a3420cf922e87f68ce
   languageName: node
   linkType: hard
 
@@ -4104,15 +4097,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dutyhours@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "dutyhours@npm:1.0.3"
+"dutyhours@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "dutyhours@npm:1.0.5"
   dependencies:
-    commander: "npm:^12.1.0"
-    date-holidays: "npm:^3.23.13"
+    commander: "npm:^13.1.0"
+    date-holidays: "npm:^3.23.18"
   bin:
     dutyhours: dist/cli.js
-  checksum: 10c0/a1967bd34ec22b77550112fab3049f543d88ccf8df441c1af1001ffa98f4142798fe0fcedf94d10da8e05fb53c360a45f1ece785b76776fb5523e1930681bd88
+  checksum: 10c0/60c5e793ea982f229cc6fe6a88254541539bb2bbc9585dd9bf648122b42ce5cfb7ce5edb3cfc6c1746854915f5387fe208a0ac0302ed53451564d4d4765defd1
   languageName: node
   linkType: hard
 
@@ -6338,7 +6331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jalaali-js@npm:^1.2.6":
+"jalaali-js@npm:^1.2.7":
   version: 1.2.7
   resolution: "jalaali-js@npm:1.2.7"
   checksum: 10c0/f745c43fdc728ea1349c37821c1768676e5880a671ae29f235fe0efd9630d7afc22ed43373eec8932d9272a8bceb85dc278657483aa31ffca9a85c1188c79d64
@@ -7006,7 +6999,7 @@ __metadata:
     commitizen: "npm:^4.3.1"
     countries-list: "npm:^3.1.1"
     cz-conventional-changelog: "npm:^3.3.0"
-    dutyhours: "npm:^1.0.3"
+    dutyhours: "npm:^1.0.5"
     eslint: "npm:^9.19.0"
     eslint-config-prettier: "npm:^10.0.1"
     eslint-plugin-import: "npm:^2.31.0"
@@ -7795,7 +7788,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment-timezone@npm:^0.5.43":
+"moment-timezone@npm:^0.5.43, moment-timezone@npm:^0.5.46":
   version: 0.5.46
   resolution: "moment-timezone@npm:0.5.46"
   dependencies:
