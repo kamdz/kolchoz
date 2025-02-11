@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/kamdz/kolchoz/compare/v1.0.6...v1.0.7) (2025-02-11)
+
+
+### Bug Fixes
+
+* **deps:** bump dutyhours from 1.0.5 to 1.0.6 in the dependencies group ([7a92b88](https://github.com/kamdz/kolchoz/commit/7a92b88c85fe5f936d0cb080552e19286dae4db2))
+
 ## [1.0.6](https://github.com/kamdz/kolchoz/compare/v1.0.5...v1.0.6) (2025-02-11)
 
 
