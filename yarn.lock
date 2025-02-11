@@ -3892,9 +3892,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-holidays-parser@npm:^3.4.6":
-  version: 3.4.6
-  resolution: "date-holidays-parser@npm:3.4.6"
+"date-holidays-parser@npm:^3.4.7":
+  version: 3.4.7
+  resolution: "date-holidays-parser@npm:3.4.7"
   dependencies:
     astronomia: "npm:^4.1.1"
     caldate: "npm:^2.0.5"
@@ -3903,22 +3903,22 @@ __metadata:
     date-easter: "npm:^1.0.3"
     deepmerge: "npm:^4.3.1"
     jalaali-js: "npm:^1.2.7"
-    moment-timezone: "npm:^0.5.46"
-  checksum: 10c0/b85052416d7c707306d9ce4761fbcc0776a668dc1a1a08380d6567d44d0ac03bf2c54921b8891f76aa97decdb7fa150a7ea977cda7573a52a0722b95aef37e70
+    moment-timezone: "npm:^0.5.47"
+  checksum: 10c0/2e65cf1fa0b350bf0a659729a8ce1ed3fc84789fb64a2b6e1ede68758c233ce7255bb493dd0ea558ef66685b14d777b9bd8319b8fca1d0541a7b5e53c66f5bd1
   languageName: node
   linkType: hard
 
-"date-holidays@npm:^3.23.18":
-  version: 3.23.18
-  resolution: "date-holidays@npm:3.23.18"
+"date-holidays@npm:^3.23.21":
+  version: 3.23.21
+  resolution: "date-holidays@npm:3.23.21"
   dependencies:
-    date-holidays-parser: "npm:^3.4.6"
+    date-holidays-parser: "npm:^3.4.7"
     js-yaml: "npm:^4.1.0"
     lodash: "npm:^4.17.21"
     prepin: "npm:^1.0.3"
   bin:
     holidays2json: scripts/holidays2json.cjs
-  checksum: 10c0/1d7195c62f76c2e406a193455bcf85d2205a0a78119d21b16498f58d483d0bfb3be68cdf9b727ebaf5dacb7978006771fe97a17d3ad267a3420cf922e87f68ce
+  checksum: 10c0/83a475922d4199e4351648037f9044e3f602d92ec8f8ccd5202a387186913a1113f772005fe2057138ce728f2c593fecfd3ceb23e812343dd162e69ba3394dc9
   languageName: node
   linkType: hard
 
@@ -4097,15 +4097,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dutyhours@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "dutyhours@npm:1.0.5"
+"dutyhours@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "dutyhours@npm:1.0.6"
   dependencies:
     commander: "npm:^13.1.0"
-    date-holidays: "npm:^3.23.18"
+    date-holidays: "npm:^3.23.21"
   bin:
     dutyhours: dist/cli.js
-  checksum: 10c0/60c5e793ea982f229cc6fe6a88254541539bb2bbc9585dd9bf648122b42ce5cfb7ce5edb3cfc6c1746854915f5387fe208a0ac0302ed53451564d4d4765defd1
+  checksum: 10c0/90123435f27b29e9d53dd079cf24d46616756f1a008a8928c9a736d349a5df4a1c998f4d0bf529e148c930a1daf85149b832fb9ce097a582e154f6e6a85c9475
   languageName: node
   linkType: hard
 
@@ -6999,7 +6999,7 @@ __metadata:
     commitizen: "npm:^4.3.1"
     countries-list: "npm:^3.1.1"
     cz-conventional-changelog: "npm:^3.3.0"
-    dutyhours: "npm:^1.0.5"
+    dutyhours: "npm:^1.0.6"
     eslint: "npm:^9.19.0"
     eslint-config-prettier: "npm:^10.0.1"
     eslint-plugin-import: "npm:^2.31.0"
@@ -7788,12 +7788,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment-timezone@npm:^0.5.43, moment-timezone@npm:^0.5.46":
+"moment-timezone@npm:^0.5.43":
   version: 0.5.46
   resolution: "moment-timezone@npm:0.5.46"
   dependencies:
     moment: "npm:^2.29.4"
   checksum: 10c0/003fd278d1aa3e63afff340a318735db80157b7a343e3f807cac10e026def214f0e71b52d582b89a11ee0a19f5d9f0da2752b7959d855429f2b715d4859d3722
+  languageName: node
+  linkType: hard
+
+"moment-timezone@npm:^0.5.47":
+  version: 0.5.47
+  resolution: "moment-timezone@npm:0.5.47"
+  dependencies:
+    moment: "npm:^2.29.4"
+  checksum: 10c0/6f7cdbebe712dcbb767a6380e097d352776b83dd7d1d797546d6ff21d813e8380633373da93aea1d24f2c3c031044fd4a18726cacad14eda3f1f428192ad955c
   languageName: node
   linkType: hard
 
