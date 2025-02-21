@@ -122,7 +122,7 @@
     "jest": "^29.7.0",
     "lint-staged": "^15.4.3",
     "log-update": "^6.1.0",
-    "prettier": "3.4.2",
+    "prettier": "3.5.1",
     "pretty-ms": "^9.2.0",
     "semantic-release": "^24.2.1",
     "ts-jest": "^29.2.5",
